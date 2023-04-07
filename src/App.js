@@ -33,9 +33,6 @@ function App() {
               Nous utilisons une méthode personnalisée où la maîtrise de l'apprentissage des langues sera soutenue par une approche de la culture et de la réalité spécifique du pays ou de la région qui intéresse l'étudiant, afin qu'il puisse articuler les structures sémantiques appropriées pour une communication efficace.
             </p>
             <p>
-            Nous pouvons vous aider à passer du niveau 0 au niveau correspondant à vos besoins de communication.
-            </p>
-            <p>
             Nous proposons des tarifs compétitifs et des horaires flexibles adaptés à vos disponibilités.
             </p>
           </div>
