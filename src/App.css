@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'playfair';
+  src: local('playfair'), url(./fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf) format('truetype');
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #4f487f;
+  background-size: 100% 130%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+
+
+  opacity: 100%;
+
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header h1 {
+  text-align:center;
+  color: #fff;
+ 
+  font-family: impact;
+  font-size: 12vh;
+  letter-spacing: 0;
+  text-shadow: -3px -3px 3px #0000DF, 3px -3px 3px #0000DF, -3px 3px 3px #0000DF, 3px 3px 3px #0000DF;
+  }
+
+
+.App-header h2 {
+  text-align:center;
+  color: #1111df;
+  text-shadow: -3px -3px 3px #e6e6eb, 3px -3px 3px #e3e3eb, -3px 3px 3px #e0e0e7, 3px 3px 3px #e6e6ec;
+
+
+  }
+
+.container {
+  min-height: 70vh;
+  padding: 20px;
+  
+}
+
+.contacto {
+  float: right;
+  max-width: 7vh;
+  max-height: 7vh;
+  overflow: hidden;
+  margin-right: 20vh;
+}
+
+.contacto img {
+  max-width: 6vh;
+  max-height: 6vh;
+}
+
+.barra {
+    height:7vh;
+    width: 100%;
+    background-color: transparent;
+    padding: .6vh;  
+}
+
+.profe {
+  background-color: rgb(89, 89, 92);
+  padding: 10px;
+  text-align: justify;
+  align-content: center;
+  font-size: 2.8vh;
+  overflow: hidden;
+  color: #e0e0e7;
+}
+  
+.profe img {  
+  max-width: 100%;
+}
+
+.marco {
+  margin: auto;
+  float: left;
+  width: 160px;
+  height: 160px;
+
+  border-radius: 50%;
+  overflow: hidden;
+  margin:  10px;
+}
+.producto {
+  text-align: justify;
+  font-size: 3vh;
+  font-family: playfair;
+}
+
+.prime {
+  text-indent: 25px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  
+}
