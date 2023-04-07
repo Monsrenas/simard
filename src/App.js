@@ -27,7 +27,7 @@ function App() {
       <body>
       <div className='container'>
         <div className='row'>
-          <div className='col-8 producto'>
+          <div className='col-md-9 col-sm-12 producto'>
             <p  className='prime'>
               Dans la ville de Trois-Rivières, vous avez à portée de main toute l'expérience nécessaire pour entamer votre chemin vers la maîtrise totale et véritable de cette langue dans laquelle vous avez tant voulu pouvoir communiquer.
             </p>
@@ -38,7 +38,7 @@ function App() {
             Nous proposons des tarifs compétitifs et des horaires flexibles adaptés à vos disponibilités.
             </p>
           </div>
-          <div className='col col-sm-3 profe'>
+          <div className='col-sm-9  col-md-3 profe'>
             <div className='marco'>
               <img src={cristian} alt='Cristian Simard'/>
             </div>
