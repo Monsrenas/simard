@@ -1,6 +1,8 @@
 import cristian from './img/profe.png';
 import puente from './img/puente.png';
 import whatsico from './img/whatsapp-icon-150x150.png';
+
+
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -17,7 +19,7 @@ function App() {
           </div>
           <div className='barra'>
             <div className='contacto'>
-                <a href='https://api.whatsapp.com/send?phone=015799579257' className='icowhatsapp'><img src={whatsico} alt='Whatsapp'/></a>
+                <a href='https://api.whatsapp.com/send?phone=+15799579257' className='icowhatsapp'><img src={whatsico} alt='Whatsapp'/></a>
             </div>
           </div>         
       </header>
