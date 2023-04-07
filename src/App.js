@@ -38,7 +38,7 @@ function App() {
             Nous proposons des tarifs compétitifs et des horaires flexibles adaptés à vos disponibilités.
             </p>
           </div>
-          <div className='col-sm-9  col-md-3 profe'>
+          <div className='col-sm-12  col-md-3 profe'>
             <div className='marco'>
               <img src={cristian} alt='Cristian Simard'/>
             </div>
